@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="header-section container">
+		<div class="row">
+			<div class="header-logo">
+				<a href="" title=""><img src="images/header.png" alt=""></a>
+				
+			</div>
+			<nav>
+				<ul>
+					<li><a href="" title="Home">Home</a></li>
+					<li><a href="" title="Product	">Product	</a></li>
+					<li><a href="" title="Promo">Promo</a></li>
+
+					<li><a href="" title="About">About</a></li>
+					<li><a href="" title="Contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="banner-section container">
+				<h1>Delicious</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+				<a href="" title="Order Now">Order Now</a>
+				
+			</div>
+			
+		
+		<div class="arrow">
+	<a href="#middle-section" title=""><img width="50" src="images/hand.png" alt=""></a>		
+		</div>
+		</div>
+		
+	</div>
+
+	<div class="middle-section container" id="middle-section">
+		
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+
+		$(".arrow a").on("click",function(t){var a=$(this).attr("href");$("html, body").animate({scrollTop:$(a).offset().top},"300"),t.preventDefault()});
+
+	</script>
+
+</body>
+</html>
